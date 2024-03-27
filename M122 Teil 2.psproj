@@ -1,0 +1,18 @@
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt">
+  <Version>2.1</Version>
+  <FileID>b040a88c-7b4b-4986-bcf3-4c7855dbfbe0</FileID>
+  <ProjectType>0</ProjectType>
+  <RememberPowerShellVersion>True</RememberPowerShellVersion>
+  <PowerShellVersion>Local Machine - PowerShell V5 (64 Bit)</PowerShellVersion>
+  <Folders />
+  <Files>
+    <File Build="0">Startup.pss</File>
+    <File Build="0" ReferenceFunction="Show-Benutzerverwaltung_psf">Benutzerverwaltung.psf</File>
+    <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
+    <File Build="0" ReferenceFunction="Show-BenutzerErstehllen_psf">BenutzerErstehllen.psf</File>
+    <File Build="0" ReferenceFunction="Show-BenutzerLöschen_psf">BenutzerLöschen.psf</File>
+    <File Build="0" ReferenceFunction="Show-GruppeErstehllen_psf">GruppeErstehllen.psf</File>
+    <File Build="0" ReferenceFunction="Show-GruppeLöschen_psf">GruppeLöschen.psf</File>
+    <File Build="0" ReferenceFunction="Show-BenutzerZuGruppeHinzufügen_psf">BenutzerZuGruppeHinzufügen.psf</File>
+  </Files>
+</Project>
